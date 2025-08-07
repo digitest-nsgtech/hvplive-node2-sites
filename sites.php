@@ -1,3 +1,29 @@
 <?php
 
 $sites['veebiplatvorm.ee'] = 'veebiplatvorm.ee';
+$sites['ewers.ee'] = 'ewers.ee';       
+$sites['hiiukool.edu.ee'] = 'hiiukool.edu.ee';
+$sites['jkhk.ee'] = 'jkhk.ee';     
+$sites['jooprepk.ee'] = 'jooprepk.ee';  
+$sites['kirivere.edu.ee'] = 'kirivere.edu.ee';  
+$sites['kpk.edu.ee'] = 'kpk.edu.ee';    
+$sites['ksg.edu.ee'] = 'ksg.edu.ee';  
+$sites['laeva.edu.ee'] = 'laeva.edu.ee';  
+$sites['maetaguse.edu.ee'] = 'maetaguse.edu.ee';  
+$sites['melliste.ee'] = 'melliste.ee';    
+$sites['murastekool.edu.ee'] = 'murastekool.edu.ee';  
+$sites['olustverepk.edu.ee'] = 'olustverepk.edu.ee';  
+$sites['osula.edu.ee'] = 'osula.edu.ee';     
+$sites['pjkool.ee'] = 'pjkool.ee';  
+$sites['raama.ee'] = 'raama.ee';
+$sites['saarepeedi.ee'] = 'saarepeedi.ee';  
+$sites['tammistekool.ee'] = 'tammistekool.ee';  
+$sites['tapagymnaasium.ee'] = 'tapagymnaasium.ee';  
+$sites['tark.edu.ee'] = 'tark.edu.ee';     
+$sites['vaanakool.edu.ee'] = 'vaanakool.edu.ee';  
+$sites['vana-vigala.edu.ee'] = 'vana-vigala.edu.ee';  
+$sites['vastseliinamuusika.edu.ee'] = 'vastseliinamuusika.edu.ee';  
+$sites['vjk.edu.ee'] = 'vjk.edu.ee';              
+$sites['vikk.ee'] = 'vikk.ee';  
+$sites['viljandigymnaasium.edu.ee'] = 'viljandigymnaasium.edu.ee';  
+$sites['vohmakool.edu.ee'] = 'vohmakool.edu.ee';    
