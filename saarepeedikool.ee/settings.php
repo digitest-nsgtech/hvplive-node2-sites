@@ -9,18 +9,18 @@ $settings['config_sync_directory'] = $app_root . '/config/sync';
 // —————————————————————————————————————————————
 $settings['trusted_host_patterns'] = [
   // Both with- and without- “www”
-  '^www\.saarepeedi\.ee$',
-  '^saarepeedi\.ee$',
+  '^www\.saarepeedikool\.ee$',
+  '^saarepeedikool\.ee$',
 ];
 
-$base_url = 'https://saarepeedi.ee';
+$base_url = 'https://saarepeedikool.ee';
 
 $settings['hash_salt']  = file_get_contents(__DIR__ . '/salt.txt');
 
 $settings['update_free_access'] = FALSE;
-$settings['file_public_path'] = 'sites/saarepeedi.ee/files';
-$settings['file_private_path'] = 'sites/saarepeedi.ee/privatefiles';
-$settings['file_temp_path'] = 'sites/saarepeedi.ee/tmp';
+$settings['file_public_path'] = 'sites/saarepeedikool.ee/files';
+$settings['file_private_path'] = 'sites/saarepeedikool.ee/privatefiles';
+$settings['file_temp_path'] = 'sites/saarepeedikool.ee/tmp';
 
 /**
  * OVERRIDES
