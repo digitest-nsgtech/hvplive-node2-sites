@@ -27,3 +27,7 @@ $sites['vjk.edu.ee'] = 'vjk.edu.ee';
 $sites['vikk.ee'] = 'vikk.ee';  
 $sites['viljandigymnaasium.edu.ee'] = 'viljandigymnaasium.edu.ee';  
 $sites['vohmakool.edu.ee'] = 'vohmakool.edu.ee';    
+$sites['sjk.edu.ee'] = 'sjk.edu.ee';              
+$sites['rak.ee'] = 'rak.ee';  
+$sites['rae.edu.ee'] = 'rae.edu.ee';  
+$sites['tammsaarekool.parnu.ee'] = 'tammsaarekool.parnu.ee';    
