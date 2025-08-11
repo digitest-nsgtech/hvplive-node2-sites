@@ -31,3 +31,4 @@ $sites['sjk.edu.ee'] = 'sjk.edu.ee';
 $sites['rak.ee'] = 'rak.ee';  
 $sites['rae.edu.ee'] = 'rae.edu.ee';  
 $sites['tammsaarekool.parnu.ee'] = 'tammsaarekool.parnu.ee';    
+$sites['illuka.edu.ee'] = 'illuka.edu.ee';  
