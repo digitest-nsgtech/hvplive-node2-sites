@@ -1,4 +1,5 @@
 <?php
+
 if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO'])
   && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https'
 ) {
@@ -26,18 +27,18 @@ $settings['config_sync_directory'] = $app_root . '/config/sync';
 // —————————————————————————————————————————————
 $settings['trusted_host_patterns'] = [
   // Both with- and without- “www”
-  '^www\.illuka\.edu\.ee$',
-  '^illuka\.edu\.ee$',
+  '^www\.kevadekool\.edu\.ee$',
+  '^kevadekool\.edu\.ee$',
 ];
 
-$base_url = 'https://illuka.edu.ee';
+$base_url = 'https://kevadekool.edu.ee';
 
 $settings['hash_salt']  = file_get_contents(__DIR__ . '/salt.txt');
 
 $settings['update_free_access'] = FALSE;
-$settings['file_public_path'] = 'sites/illuka.edu.ee/files';
-$settings['file_private_path'] = 'sites/illuka.edu.ee/privatefiles';
-$settings['file_temp_path'] = 'sites/illuka.edu.ee/tmp';
+$settings['file_public_path'] = 'sites/kevadekool.edu.ee/files';
+$settings['file_private_path'] = 'sites/kevadekool.edu.ee/privatefiles';
+$settings['file_temp_path'] = 'sites/kevadekool.edu.ee/tmp';
 
 /**
  * OVERRIDES
@@ -55,9 +56,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 
 $databases['default']['default'] = array (
-  'database' => 'illuka_edu_ee_db',
-  'username' => 'illuka_edu_ee_user',
-  'password' => 'OQt5BsGY8I9d8dW0lJzyXA35Jo/HSBA3',
+  'database' => 'kevadekool_edu_ee_db',
+  'username' => 'kevadekool_edu_ee_user',
+  'password' => 'XM9AVRYK6JXTbnwxl1bOsfSGrL/fR3iV',
   'prefix' => '',
   'host' => '10.0.4.5',
   'port' => '3306',
