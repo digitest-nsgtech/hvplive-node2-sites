@@ -1,5 +1,22 @@
 <?php
 
+if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO'])
+  && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https'
+) {
+  $_SERVER['HTTPS'] = 'on';
+}
+
+// And enable Drupal’s built-in reverse-proxy trust:
+$settings['reverse_proxy'] = TRUE;
+// List the CIDR(s) or IP(s) of your ingress/load-balancer.
+$settings['reverse_proxy_addresses'] = [
+  '10.42.0.0/16',  // all Pod IPs (including your Ingress)
+  '127.0.0.1',     // local‐CLI testing if you ever curl from inside the box
+];
+// Trust all the X-Forwarded-* headers:
+$settings['reverse_proxy_trusted_headers'] = 31;
+
+
 #$settings['config_sync_directory'] = '/opt/d10deploy/config/sync';
 $settings['config_sync_directory'] = $app_root . '/config/sync';
 
