@@ -28,6 +28,8 @@ $settings['trusted_host_patterns'] = [
   // Both with- and without- “www”
   '^www\.kjkesklinna\.edu\.ee$',
   '^kjkesklinna\.edu\.ee$',
+    '^www\.kjkp\.ee$',
+  '^kjkp\.ee$',
 ];
 
 $base_url = 'https://kjkesklinna.edu.ee';
@@ -35,7 +37,7 @@ $base_url = 'https://kjkesklinna.edu.ee';
 $settings['hash_salt']  = file_get_contents(__DIR__ . '/salt.txt');
 
 $settings['update_free_access'] = FALSE;
-$settings['file_public_path'] = 'sites/kjkesklinna.edu.eee/files';
+$settings['file_public_path'] = 'sites/kjkesklinna.edu.ee/files';
 $settings['file_private_path'] = 'sites/kjkesklinna.edu.ee/privatefiles';
 $settings['file_temp_path'] = 'sites/kjkesklinna.edu.ee/tmp';
 

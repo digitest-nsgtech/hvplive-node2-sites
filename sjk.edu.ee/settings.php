@@ -30,7 +30,7 @@ $settings['trusted_host_patterns'] = [
   '^sjk\.edu\.ee$',
 ];
 
-$base_url = 'https://sjk.edu.eee';
+$base_url = 'https://sjk.edu.ee';
 
 $settings['hash_salt']  = file_get_contents(__DIR__ . '/salt.txt');
 
