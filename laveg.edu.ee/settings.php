@@ -28,6 +28,8 @@ $settings['trusted_host_patterns'] = [
   // Both with- and without- “www”
   '^www\.laveg\.edu\.ee$',
   '^laveg\.edu\.ee$',
+  '^www\.tahe\.edu\.ee$',
+  '^tahe\.edu\.ee$',
 ];
 
 $base_url = 'https://laveg.edu.ee';

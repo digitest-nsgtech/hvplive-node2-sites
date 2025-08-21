@@ -48,6 +48,7 @@ $sites['moisakyla.vil.ee'] = 'moisakyla.vil.ee';
 $sites['sindilasteaed.ee'] = 'sindilasteaed.ee';
 $sites['hiig.edu.ee'] = 'hiig.edu.ee';
 $sites['laveg.edu.ee'] = 'laveg.edu.ee';
+$sites['tahe.edu.ee'] = 'laveg.edu.ee';
 $sites['jklk.edu.ee'] = 'jklk.edu.ee';
 $sites['oris.edu.ee'] = 'oris.edu.ee';
 $sites['kjkp.ee'] = 'kjkesklinna.edu.ee';  
